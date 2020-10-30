@@ -1,7 +1,14 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/administration">Administration</router-link> |
+    <router-link to="/schools">Schools</router-link> |
+    <router-link to="/departments">Departments</router-link> |
+    <router-link to="/resources">Resources</router-link> |
+    <router-link to="/state-required-information">State Required Information</router-link> |
+    <router-link to="/contact">Contact</router-link> |
+    <router-link to="/search">Search</router-link> |
+    <router-link to="/calendar">Calendar</router-link>
   </div>
   <router-view/>
 </template>
